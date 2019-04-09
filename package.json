@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "react": "16.8.3",
+    "react-navigation": "^2.18.2",
     "react-native": "0.59.4",
     "react-native-bouncing-ball": "^0.1.1"
   },

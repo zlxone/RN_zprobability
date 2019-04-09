@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Platform, StyleSheet, BackHandler, Text, View } from 'react-native';
-// import Navigator from './src/navigator/navigator'
+import Navigator from './src/navigator/navigator'
 import Ball from './src/pages/Ball'
 
 export default class App extends Component {
@@ -12,7 +12,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <Ball />
+      <Navigator />
     );
   }
 }
